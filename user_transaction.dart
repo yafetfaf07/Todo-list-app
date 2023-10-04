@@ -3,7 +3,7 @@ import 'package:expense_tracker_app/widgets/transaction_list.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../models/transaction.dart';
-//import 'package:expense_tracker_app/widgets/chart.dart';
+
 
 class UserTransaction extends StatefulWidget {
   const UserTransaction({super.key});
@@ -61,7 +61,7 @@ class _UserTransactionState extends State<UserTransaction> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-       // Chart(transactions),
+    
         TransactionList(transactions, deleteTransactions),
         FloatingActionButton(
           elevation: 30,
