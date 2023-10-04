@@ -6,12 +6,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  MyApp({super.key});
-
-  //  List<Transaction> get _recentTransaction {
-  //     return UserTransaction();
-  // }
-   
+  MyApp({super.key});   
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
           appBar: AppBar(
-            title: const Text('Personal Expenses'),
+            title: const Text('Todo-app'),
           ),
           body:  SingleChildScrollView(
             child:  Column(
